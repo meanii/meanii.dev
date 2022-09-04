@@ -2,14 +2,32 @@
   padding: 0 2rem;
 }
 
-.main {
+.projects {
   min-height: 100vh;
   padding: 4rem 0;
   flex: 1;
   display: flex;
+  margin-left: 10%;
+  margin-right: 10%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.skills {
+  min-height: 20vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  margin-left: 10%;
+  margin-right: 10%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ptitle {
+  margin-left: 10%;
 }
 
 .footer {
@@ -20,6 +38,7 @@
   justify-content: center;
   align-items: center;
 }
+
 
 .footer a {
   display: flex;
