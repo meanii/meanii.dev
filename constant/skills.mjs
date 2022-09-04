@@ -1,5 +1,5 @@
 import { SiJavascript, SiTypescript, SiGoland, SiMongodb, SiExpress, SiPython, SiNestjs, SiHtml5, SiKubernetes, SiDocker, SiJenkins, SiNginx, SiCplusplus } from 'react-icons/si';
-import { FaGitAlt, FaNodeJs, FaReact, FaAndroid, FaAngular, FaAws, FaGoogle } from 'react-icons/fa';
+import { FaGitAlt, FaNodeJs, FaReact, FaAngular, FaAws, FaGoogle } from 'react-icons/fa';
 import { TbBrandNextjs } from 'react-icons/tb';
 import { SiGnubash } from 'react-icons/si';
 import { DiCss3 } from 'react-icons/di';
@@ -10,7 +10,6 @@ export const SKILLS = [
     { name: `Golang`, icon: SiGoland },
     { name: `Python`, icon: SiPython },
     { name: `Node JS`, icon: FaNodeJs },
-    { name: `Typescript`, icon: SiTypescript },
     { name: `Bash`, icon: SiGnubash },
     { name: `MongoDB`, icon: SiMongodb },
     { name: `Express`, icon: SiExpress },

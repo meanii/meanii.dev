@@ -11,8 +11,8 @@ export default function Hero() {
                 <Text h2 size={40} span>
                     I&lsquo;m anil
                 </Text>
-                <Text  size={20} span>
-                Highly motivated, self-starting developer seeking to launch a career building web applications and and linux services.
+                <Text size={20} span>
+                    Highly motivated, self-starting developer seeking to launch a career building web applications and linux services.
                 </Text>
             </div>
         </>

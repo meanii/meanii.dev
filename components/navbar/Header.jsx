@@ -1,6 +1,7 @@
 import { Navbar, Link, Text, Avatar, Dropdown, Button, Spacer } from "@nextui-org/react";
 import { AcmeLogo } from "../atoms/AcmeLogo";
-import { MdDarkMode } from 'react-icons/md';
+import { User } from "@nextui-org/react";
+
 
 
 
@@ -18,14 +19,18 @@ export default function App() {
             <Navbar.Brand
                 css={{
                     "@xs": {
-                        w: "12%",
+                        w: "20%",
                     },
                 }}
             >
-                <AcmeLogo />
-                <Text b color="inherit" hideIn="xs">
-                    ACME
-                </Text>
+                <User
+                    src="https://ik.imagekit.io/meanii/159655474_466523861929679_1591139633029050565_n_6aWhFbSqN.png"
+                    name="Anil Chauhan"
+                    zoomed
+                >
+                    <User.Link href="https://github.com/meanii/">@meanii</User.Link>
+                </User>
+
             </Navbar.Brand>
             <Navbar.Content
                 enableCursorHighlight

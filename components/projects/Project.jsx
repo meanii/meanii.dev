@@ -1,4 +1,5 @@
 import { Card, Col, Row, Button, Text } from "@nextui-org/react";
+import { BsGithub } from 'react-icons/bs';
 
 export const Project = () => (
     <Card isHoverable isPressable css={{ w: "100%", h: "400px" }}>
@@ -37,7 +38,7 @@ export const Project = () => (
                         Available soon.
                     </Text>
                     <Text color="#000" size={12}>
-                        Get notified.
+                        Open Source
                     </Text>
                 </Col>
                 <Col>
@@ -49,7 +50,7 @@ export const Project = () => (
                                 weight="bold"
                                 transform="uppercase"
                             >
-                                Notify Me
+                                <BsGithub />
                             </Text>
                         </Button>
                     </Row>
