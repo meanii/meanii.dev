@@ -1,4 +1,4 @@
-import { Navbar, Link, Text, Avatar, Dropdown, Button } from "@nextui-org/react";
+import { Navbar, Link, Text, Avatar, Dropdown, Button, Spacer } from "@nextui-org/react";
 import { AcmeLogo } from "../atoms/AcmeLogo";
 import { MdDarkMode } from 'react-icons/md';
 
@@ -49,8 +49,10 @@ export default function App() {
                 }}
             >
                 <Button shadow animated color="gradient" auto rounded flat>
-                      <Text weight="bold"></Text> 
-                      <Text weight="bold">❤️&nbsp;&nbsp;Sponser</Text>
+                    <Text weight="bold"></Text>
+                    <Text weight="bold">❤️</Text>
+                    <Spacer x={0.2}></Spacer>
+                    <Text weight="bold">Sponser</Text>
                 </Button>
             </Navbar.Content>
             <Navbar.Collapse>

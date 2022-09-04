@@ -9,7 +9,7 @@ export default function Hero() {
                     Hellow 🧋
                 </Text>
                 <Text h2 size={40} span>
-                    I'm anil
+                    I&lsquo;m anil
                 </Text>
                 <Text  size={20} span>
                 Highly motivated, self-starting developer seeking to launch a career building web applications and and linux services.
