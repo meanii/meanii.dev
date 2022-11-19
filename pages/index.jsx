@@ -34,7 +34,6 @@ export default function Home() {
                     content={`${me?.name}'s portfolio`}
                 />
             </Head>
-            🧋
             <Layout css={{ m: 6 }}>
                 {/* init main components */}
                 <Header />
