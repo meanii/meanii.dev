@@ -20,18 +20,22 @@ export default function Home() {
     return (
         <div>
             <Head>
-                <meta property='og:url' content={`https://www.${me?.blog}`} />
-                <title>{me?.name}&lsquo;s portfolio 🧋</title>
-                <link rel="shortcut icon" href={me?.avatar_url} />
+                <meta property='og:url' content={`https://www.meanii.online`} />
+                <title>anil&lsquo;s portfolio 🧋</title>
+                <link rel='shortcut icon' href="https://avatars.githubusercontent.com/u/62683938?v=4" />
                 <meta
                     name='viewport'
                     content='initial-scale=1.0, width=device-width'
                 />
-                <meta property='og:description' content={me?.bio} />
-                <meta property='og:image' content={me?.avatar_url} />
+                <meta
+                    property='og:description'
+                    content='Highly motivated, self-starting developer seeking to launch a career building web applications and and linux services.
+'
+                />
+                <meta property='og:image' content="https://avatars.githubusercontent.com/u/62683938?v=4" />
                 <meta
                     property='og:site_name'
-                    content={`${me?.name}'s portfolio`}
+                    content={`anil's portfolio`}
                 />
             </Head>
             <Layout css={{ m: 6 }}>
