@@ -4,47 +4,45 @@ import Hero from '../components/hero/Hero';
 import Header from '../components/navbar/Header';
 import Projects from '../components/projects/Projects';
 import { Skills } from '../components/skills/Skills';
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Home.module.css';
 
 export default function Home() {
-  return (
-    <div >
-      <Layout css={{ m: 6 }}>
-        <Header />
+    return (
+        <div>
+            <Layout css={{ m: 6 }}>
+                {/* init main components */}
+                <Header />
+                <Hero />
 
-        <Hero />
+                {/* projects sections */}
+                <div className={styles.projects}>
+                    <Text
+                        h1
+                        size={40}
+                        css={{
+                            textGradient: '45deg, $blue600 -20%, $pink600 50%',
+                        }}
+                        weight='bold'>
+                        Featured Projects
+                    </Text>
+                    <Projects />
+                </div>
 
-        {/* projects sections */}
-        <div className={styles.projects}>
-          <Text
-            h1
-            size={40}
-            css={{
-              textGradient: "45deg, $blue600 -20%, $pink600 50%",
-            }}
-            weight="bold"
-          >
-            Featured Projects
-          </Text>
-          <Projects />
+                {/* Skills section */}
+                <div className={styles.skills}>
+                    <Text
+                        h1
+                        size={40}
+                        css={{
+                            textGradient:
+                                '45deg, $yellow600 -20%, $red600 100%',
+                        }}
+                        weight='bold'>
+                        Skills
+                    </Text>
+                    <Skills />
+                </div>
+            </Layout>
         </div>
-
-        {/* Skills section */}
-        <div className={styles.skills}>
-          <Text
-            h1
-            size={40}
-            css={{
-              textGradient: "45deg, $yellow600 -20%, $red600 100%",
-            }}
-            weight="bold"
-          >
-            Skills
-          </Text>
-          <Skills />
-        </div>
-
-      </Layout>
-    </div>
-  )
+    );
 }
