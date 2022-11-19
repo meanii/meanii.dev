@@ -21,7 +21,7 @@ export default function Home() {
         <div>
             <Head>
                 <meta property='og:url' content={`https://www.${me?.blog}`} />
-                <title>{me?.name}'s portfolio 🧋</title>
+                <title>{me?.name}&lsquo;s portfolio 🧋</title>
                 <link rel="shortcut icon" href={me?.avatar_url} />
                 <meta
                     name='viewport'
@@ -34,7 +34,7 @@ export default function Home() {
                     content={`${me?.name}'s portfolio`}
                 />
             </Head>
-
+            🧋
             <Layout css={{ m: 6 }}>
                 {/* init main components */}
                 <Header />
